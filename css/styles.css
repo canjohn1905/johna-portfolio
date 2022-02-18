@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #343a40;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -107,7 +107,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: floralwhite;
 }
 
 h1, .h1 {
@@ -157,6 +157,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 abbr[title],
@@ -217,7 +218,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #F5D10D;
 }
 
 sub,
@@ -237,7 +238,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #F5D10D;
   text-decoration: underline;
 }
 a:hover {
@@ -7719,7 +7720,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #F5D10D !important;
 }
 
 .text-secondary {
@@ -7810,7 +7811,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #181818 !important;
 }
 
 .bg-secondary {
@@ -11321,6 +11322,7 @@ h1, .h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  font-weight: bolder;
 }
 
 .subheading {
