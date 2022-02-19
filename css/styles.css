@@ -11,6 +11,41 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ /* slidingText2 */
+ .sliding-text-container {
+  width: 100%;
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  /*      overflow      */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.big-text {
+  display: inline-block;
+  font-size: 200px;
+  color: #fffaf0;
+  z-index: 0;
+  font-weight: 900;
+  animation: marquee 50s linear infinite;
+}
+      
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+/* Header boxes End */
+
  .btn-info {
   font-weight: bold!important;
   color: #000;
