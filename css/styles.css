@@ -11,6 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+
  /* slidingText2 */
  .sliding-text-container {
   width: 100%;
@@ -707,7 +709,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 150px;
   height: auto;
 }
 
@@ -11525,7 +11527,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    
   }
 }
 @media (min-width: 992px) {
