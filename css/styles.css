@@ -11,7 +11,24 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-
+#restitles{
+  line-height: 1;
+  letter-spacing: 4px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, black, #fffaf0, black);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  animation: shade 5s linear infinite;
+}
+@keyframes shade {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
 
  /* slidingText2 */
  .sliding-text-container {
@@ -7487,6 +7504,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  
 }
 
 .mb-auto {
@@ -7827,6 +7845,8 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: #F5D10D !important;
+  font-weight: bolder;
+
 }
 
 .text-secondary {
