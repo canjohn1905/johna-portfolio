@@ -14,8 +14,14 @@
  /* TESTOMONIALS */
  
  /* WORK SLIDER */
+.btext {
+  font-size: 2.15rem!important;
+}
+ .p{
+  font-size: 2.15rem!important;
+ }
  li {
-  font-size: 18px;
+  font-size: 2.15rem!important;
 }
  .titlePortfolio{
    padding-left: 1em;
@@ -451,7 +457,7 @@ body{
   color: #fffaf0;
   z-index: 0;
   font-weight: 900;
-  animation: marquee 50s linear infinite;
+  animation: marquee 20s linear infinite;
 }
       
 @keyframes marquee {
@@ -8248,6 +8254,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #F5D10D !important;
   font-weight: bolder;
+  font-size: 18px;
 
 }
 
