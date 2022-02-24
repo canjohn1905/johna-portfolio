@@ -12,7 +12,19 @@
  */
 
  /* TESTOMONIALS */
- 
+ .blockquote-footer{
+  font-size: 18px!important;
+ }
+ .testimonial-slider .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  background-color: #212529;
+  border-radius: 100%;
+}
+.testimonial-slider {
+  padding: 10px 0px 40px;
+  background-color: #fffaf0!important;
+}
  /* WORK SLIDER */
 .btext {
   font-size: 2.15rem!important;
@@ -8254,7 +8266,7 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #F5D10D !important;
   font-weight: bolder;
-  font-size: 18px;
+ 
 
 }
 
@@ -8376,7 +8388,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 }
 
 .bg-dark {
@@ -11858,7 +11870,7 @@ p.lead {
   font-weight: bolder;
 }
 .resumeA{
-  font-size: 18px;
+  font-size: 2.15rem;
 }
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
